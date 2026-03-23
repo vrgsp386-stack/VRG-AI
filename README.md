@@ -52,12 +52,11 @@
 ```
 vrg-ai/
 ├── index.html
-├── netlify.toml
-├── manifest.json
-├── sw.js
-└── netlify/
-    └── functions/
-        └── ask.js
+├── README.md
+├── .gitignore
+├── vercel.json
+└── api/
+    └── ask.js
 ```
 
 ---
