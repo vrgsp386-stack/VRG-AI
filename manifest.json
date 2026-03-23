@@ -1,0 +1,47 @@
+{
+  "name": "VRG-AI — Smart Command Center",
+  "short_name": "VRG-AI",
+  "description": "AI-powered search engine, resume builder, QR generator and tools hub",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#3A393F",
+  "theme_color": "#F8DE7F",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["productivity", "utilities", "business"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ask AI",
+      "short_name": "Ask AI",
+      "description": "Ask anything to VRG-AI",
+      "url": "/#ai-answer"
+    },
+    {
+      "name": "QR Generator",
+      "short_name": "QR Gen",
+      "description": "Generate QR codes",
+      "url": "/#qr"
+    },
+    {
+      "name": "Resume Builder",
+      "short_name": "Resume",
+      "description": "Build your resume",
+      "url": "/#resume"
+    }
+  ]
+}
